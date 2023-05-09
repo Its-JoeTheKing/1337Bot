@@ -8,5 +8,7 @@ for i in range(0,288):
     tweet = r.json()[0]['text'].lower()
     if  "piscine" in tweet or "pool" in tweet:
         requests.get("https://api.telegram.org/bot6156374149:AAEWgpCby2jcVGFcDWIQQZphK8cQaGrFiWE/sendMessage?chat_id=-1001977172268&text=🔥⚡🔥 P001 I5 L04DIN9 !!! 🔥⚡🔥 \n 🍀 good Luck 🍀")
+        requests.get("https://api.telegram.org/bot6156374149:AAEWgpCby2jcVGFcDWIQQZphK8cQaGrFiWE/sendMessage?chat_id=-1001977172268&text=🔥⚡🔥 P001 I5 L04DIN9 !!! 🔥⚡🔥 \n 🍀 good Luck 🍀")
+        requests.get("https://api.telegram.org/bot6156374149:AAEWgpCby2jcVGFcDWIQQZphK8cQaGrFiWE/sendMessage?chat_id=-1001977172268&text=🔥⚡🔥 P001 I5 L04DIN9 !!! 🔥⚡🔥 \n 🍀 good Luck 🍀")
     print("waiting for next 5 min ...")
     sleep(300)
